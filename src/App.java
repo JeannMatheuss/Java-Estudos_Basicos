@@ -11,5 +11,12 @@ public class App {
 
         System.out.println("Está incluido no plano? " + incluidoNoPlano);
         System.out.println("Nota do filme: " + notaDoFilme);
+
+        double media = (9.1 + 6.5 + 8) / 3;
+        System.out.println("A média é: " + media);
+
+        String sinopse;
+        sinopse = "Filme de ação e aventura com aviões";
+        System.out.println(sinopse);
     }
 }
